@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>tính tổng </title>
+</head>
+<body>
+<p id="sum"></p>
+</body>
+<script>
+  let n= parseInt(prompt("Nhập số lượng số cần tính tổng:"));
+  let sum=0;
+  for(let i=0;i<n;i++)
+  {
+    let number = parseInt(prompt("Nhập số"));
+      sum+=number;
+  }
+  document.getElementById('sum').innerHTML=sum;
+
+
+</script>
+</html>
